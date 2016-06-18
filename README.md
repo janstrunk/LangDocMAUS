@@ -33,12 +33,14 @@ transliterationtables. The grammar is relatively simple:
 "#" marks comment lines, which are ignored
 
 Substitution rules have the format
-X --> Y
+
+    X --> Y
 
 X is replaced by Y.
 
 Deletion rules have the format
-X --
+
+    X --
 
 X is deleted.
 
