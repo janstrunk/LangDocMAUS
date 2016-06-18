@@ -1,0 +1,103 @@
+# Transliteration from Bora transcription in Toolbox to SAMPA
+#
+# Jan Strunk
+# May 2013
+#
+# Based on a Bora orthography to IPA table by Frank Seifart
+# Substitutes similar phones if a Bora phone is not contained
+# in the SAMPA MAUS table
+#
+# Transliteration is done by substitution starting with the rules
+# at the top. Order matters.
+#
+# Uppercase to lowercase
+A --> a
+Á --> á
+B --> b
+C --> c
+D --> d
+É --> é
+E --> e
+F --> f
+G --> g
+H --> h
+I --> i
+Í --> í
+Ɨ --> ɨ
+Ɨ´ --> ɨ´
+J --> j
+K --> k
+L --> l
+M --> m
+N --> n
+O --> o
+Ó --> ó
+P --> p
+Q --> q
+R --> r
+S --> s
+T --> t
+U --> u
+Ú --> ú
+V --> v
+W --> w
+X --> x
+Y --> y
+Z --> z
+# Normal substitutions
+[xxx] -->  <nib> 
+# Spanish qu
+qu -->  k 
+ch -->  tS 
+h -->  Q 
+# Change jy to a dummy symbol
+jy -->  € 
+j -->  h 
+y -->  j 
+ds -->  d s 
+t -->  t 
+ll -->  tS 
+t s -->  ts 
+p -->  p 
+k -->  k 
+w -->  k w 
+b -->  b 
+d -->  d 
+m -->  m 
+v -->  B 
+r -->  r 
+n -->  n 
+ñ -->  J 
+g -->  g 
+í -->  i 
+é -->  E 
+ɨ́ -->  1 
+á -->  a 
+ó -->  o 
+ú -->  u 
+i -->  i 
+e -->  E 
+ɨ -->  1 
+a -->  a 
+o -->  o 
+u -->  M 
+c -->  k 
+# Convert dummy symbol back to value of "jy"
+€ --> c
+# Delete all punctuation symbols
+. --
+: --
+, --
+; --
+! --
+¡ --
+? --
+¿ --
+_ --
+- --
+" --
+( --
+) --
+[ --
+] --
+\/ --

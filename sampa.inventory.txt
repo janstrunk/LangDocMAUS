@@ -1,0 +1,361 @@
+SAMPA symbols recognized in input (MAUS) for language sampa, original 
+SAMPA symbol (SAMPA), IPA symbol, phonetic description, orthographic 
+example words, and what acoustic model MAUS uses for this symbol 
+(HMM, language SAMPA only). Special symbols '#', '<' and '>' 
+denote silence intervals; the symbol '<nib>' non-human noise and the 
+symbol '<usb>' human noise (e.g. for filled pauses, laughing etc.).
+
+------------------------------------------------------------------------
+
+MAUS	SAMPA	IPA	PHONETICS	EXAMPLES	ISO639-3	MANNER	PLACE
+i	i	i	front closed unrounded vowel	English see, Spanish sí, French vite, German mi.e.ten, Italian visto	xxx	vowel	front	i.rus
+I	I	ɪ	front closed unrounded vowel, but somewhat more centralised and relaxed, in Polish: mid closed unrounded	English city, German mit	xxx	vowel	front	I.gsw
+1	1	ɨ	close central unrounded vowel	Russian мыс	xxx	vowel	central	P1.rus
+e	e	e	front half closed unrounded vowel	US English bear, Spanish él, French année, German mehr, Italian rete, Catalan més	xxx	vowel	front	e.rus
+E	E	ɛ	front half open unrounded vowel	English bed, French même, German Herr, Männer, Italian ferro, Catalan mes, Spanish perro	xxx	vowel	front	E.gsw
+{	{	æ	front open unrounded vowel	English cat	xxx	vowel	front	{.gsw
+y	y	y	front closed rounded vowel	French du, German Tür	xxx	vowel	front	y.gsw
+2	2	ø	front half closed rounded vowel	French deux (hence '2'), German Höhle	xxx	vowel	front	P2.gsw
+9	9	œ	front half open rounded vowel	French neuf (hence '9'), German Hölle	xxx	vowel	front	P9.gsw
+@	@	ə	central neutral unrounded vowel	English about, winner,German bitte	xxx	vowel	central	@.gsw
+6	6	ɐ	central neutral unrounded vowel	German besser	xxx	vowel	central		P6.deu
+3	3	ɜ	front half open unrounded vowel, but somewhat more centralised and relaxed	English bird,nurse	xxx	vowel	central	P3:.aus
+a	a	a	central open vowel	Spanish da, barra, French bateau,lac, German Haar, Italian pazzo	xxx	vowel	front	a.rus
+}	}	ʉ	central closed rounded vowel	Scottish English pool, Swedish sju	xxx	vowel	central	}:.aus
+8	8	ɵ	central neutral rounded vowel	Swedish kust	xxx	vowel	central	U.deu
+&	&	ɶ	front open rounded vowel	American English that	xxx	vowel	front	{.aus
+M	M	ɯ	back closed unrounded vowel	Japanese fuji, Vietnamese ư Korean 으	xxx	vowel	back	U.deu
+7	7	ɤ	back half closed unrounded vowel	Vietnamese ơ Korean 어	xxx	vowel	back	P7.ekk
+V	V	ʌ	back half open unrounded vowel	RP and US English run,enough,strut	xxx	vowel	back	V.aus
+A	A	ɑ	back open unrounded vowel	English arm, US English law, standard French âme	xxx	vowel	back	A.gsw
+u	u	u	back closed rounded vowel	English soon, Spanish tú, French goût, German Hut, Mutter, Italian azzurro,tutto	xxx	vowel	back	u.rus
+U	U	ʊ	back closed rounded vowel somewhat more centralised and relaxed	English put, Buddhist	xxx	vowel	back	U.gsw
+o	o	o	back half closed rounded vowel	US English sore, Scottish English boat, Spanish yo, French beau, German Sohle, Italian dove, Catalan ona	xxx	vowel	back	o.rus
+O	O	ɔ	back half open rounded vowel	British English law, caught, Italian cosa, Catalan dona, Spanish ojo, German Wort	xxx	vowel	back	O.gsw
+Q	Q	ɒ	back open rounded vowel	British English not, cough	xxx	vowel	back	Q.gsw
+Y	Y	ʏ	lax [y]	German hübsch	xxx	vowel	front	Y.gsw
+p	p	p	voiceless bilabial plosive	English pen	xxx	plosive	bilabial	p.rus
+b	b	b	voiced bilabial plosive	English but	xxx	plosive	bilabial	b.rus
+t	t	t	voiceless alveolar plosive	English two, Spanish toma	xxx	plosive	alveolar	t.rus
+d	d	d	voiced alveolar plosive	English do, Italian cade	xxx	plosive	alveolar	d.rus
+ts	ts	ts	voiceless alveolar affricate	Italian calza, German zeit	xxx	affricate	alveolar	ts.rus
+dz	dz	dz	voiced alveolar affricate	Italian zona	xxx	affricate	alveolar	dz.kat
+tS	tS	tʃ	voiceless postalveolar affricate	English chair, , Spanish mucho	xxx	affricate	post-alveolar	tS.gsw
+dZ	dZ	dʒ	voiced postalveolar affricate	English gin, Italian giorno	xxx	affricate	post-alveolar	dZ.aus
+pf	pf	pf	voiceless labial affricate	German Pferd	xxx	affricate	bilabial	pf.gsw
+kx	kx	kx	voiceless uvular affricate	Swiss German Kuchen	xxx	affricate	uvular	x.gsw
+c	c	c	voiceless palatal plosive	Hungarian tyúk 'hen'	xxx	plosive	palatal	c.hun
+k	k	k	voiceless velar plosive	English skill	xxx	plosive	velar	k.rus
+g	g	ɡ	voiced velar plosive	English go	xxx	plosive	velar	g.rus
+q	q	q	voiceless uvular plosive	Arabic qof	xxx	plosive	uvular	k.deu
+B	B	β	voiced bilabial fricative	Catalan roba 'clothes'	xxx	fricative	bilabial	v.deu
+f	f	f	voiceless labiodental fricative	English fool, Spanish and Italian falso	xxx	fricative	labio-dental	f.rus
+v	v	v	voiced labiodental fricative	English voice, German Welt	xxx	fricative	labio-dental	v.rus
+T	T	θ	voiceless dental fricative	English thing, Castilian Spanish caza	xxx	fricative	dental	T.ekk
+D	D	ð	voiced dental fricative	English this	xxx	fricative	dental		D.aus
+s	s	s	voiceless alveolar fricative	English see, Spanish sí	xxx	fricative	alveolar	s.rus
+z	z	z	voiced alveolar fricative	English zoo, German See	xxx	fricative	alveolar	z.rus
+S	S	ʃ	voiceless postalveolar fricative	English she, French chemin	xxx	fricative	post-alveolar	S.rus
+Z	Z	ʒ	voiced postalveolar fricative	French jour, English pleasure	xxx	fricative	post-alveolar	Z.rus
+C	C	ç	voiceless palatal fricative	German Ich	xxx	fricative	palatal	C.gsw
+x	x	x	voiceless velar fricative	Scots loch, Castilian Spanish ajo	xxx	fricative	velar	x.rus
+G	G	ɣ	voiced velar fricative	Greek γάλα	xxx	fricative	velar	G.kat
+h	h	h	voiceless glottal fricative	English ham, German Hand	xxx	fricative	glottal	h.gsw
+m	m	m	bilabial nasal	English man	xxx	nasal	bilabial	m.rus
+F	F	ɱ	labiodental nasal	Spanish infierno, Hungarian kámfor	xxx	nasal	labio-dental	n.deu
+n	n	n	alveolar nasal	English, Spanish and Italian no	xxx	nasal	alveolar	n.rus
+J	J	ɲ	palatal nasal	Spanish año, French oignon	xxx	nasal	palatal	J.hun
+N	N	ŋ	velar nasal	English ring, Italian bianco, Tagalog ngayón	xxx	nasal	velar	N.gsw
+l	l	l	alveolar lateral approximant	English left, Spanish largo	xxx	lateral-approximant	alveolar	l.rus
+L	L	ʎ	palatal lateral approximant	Italian aglio, Catalan colla,	xxx	lateral-approximant	palatal	LL.ita
+5	5	ɫ	velarized dental lateral	English meal Catalan alga	xxx	lateral-approximant	dental-velar	l.deu
+4	4	ɾ	alveolar tap	Spanish pero, American English muddy	use	tap	alveolar	P4.use
+r	r	r	alveolar trill	Spanish perro	xxx	trill	alveolar	r.rus
+R	R	ʀ	uvular trill	German Reich	xxx	trill	uvular	R.ekk
+P	P	ʋ	labiodental approximant	Dutch Waar	xxx	approximant	labio-dental	v.deu
+w	w	w	labial-velar approximant	English we, French oui	xxx	approximant	labio-velar	w.gsw
+H	H	ɥ	labial-palatal approximant	French huit	xxx	approximant	labio-palatal	v.deu
+j	j	j	palatal approximant	English yes, French yeux	xxx	approximant	palatal	j.rus
+?	?	ʔ	glottal stop	German Verein, Danish stød	xxx	plosive	glottal	?.gsw
+W	W	ʍ	voiceless labial-velar fricative		xxx	fricative	labio-velar	W.aus
+D:	D:	ðː	lengthened voiced dental fricative		fin	fricative	dental	D.use
+T:	T:	θː	lengthened voiceless dental fricative		fin	fricative	dental	T.use
+i:	i:	iː	lengthened front closed unrounded vowel	mieten	deu	vowel	front	i:.deu
+ii	ii	iː	lengthened front closed unrounded vowel in quantity II	riisu	ekk	vowel	front	ii.ekk
+ii:	ii:	iiː	lengthened front closed unrounded vowel in quantity III		ekk	vowel	front	ii:.ekk
+e:	e:	eː	lengthened front half closed unrounded vowel	mehr	deu	vowel	front	e:.deu
+ee	ee	eː	lengthened front half closed unrounded vowel in quantity II	keere	ekk	vowel	front	ee.ekk
+ee:	ee:	eeː	lengthened front half closed unrounded vowel in quantity III		ekk	vowel	front	ee:.ekk
+E:	E:	ɛː	lengthened front half open unrounded vowel	Mär	deu	vowel	front	E:.deu
+y:	y:	yː	lengthened front closed rounded vowel	Tür	deu	vowel	front	y:.deu
+Y:	Y:	ʏː	lengthened lax [y]	(Swiss German)	deu	vowel	front	Y.deu
+2:	2:	øː	lengthened front half closed rounded vowel	Höhle	deu	vowel	front	P2:.deu
+a:	a:	aː	lengthened central open vowel	Haar	deu	vowel	central	a:.deu
+u:	u:	uː	lengthened back closed rounded vowel	Hut	deu	vowel	back	u:.deu
+o:	o:	oː	lengthened back half closed rounded vowel	Sohle	deu	vowel	back	o:.deu
+3:	3:	ɜː	lengthened front half open unrounded vowel	furs	aus	vowel	front	P3:.aus
+A:	A:	ɑː	lengthened back open unrounded vowel	stars	aus	vowel	back	A:.aus
+O:	O:	ɔː	lengthened back half open rounded vowel	cause	aus	vowel	back	O:.aus
+6:	6:	ɐː	lengthened central neutral unrounded vowel		aus	vowel	central	P6:.aus
+}:	}:	ʉː	lengthened central closed rounded vowel	pool	aus	vowel	central	}:.aus
+Q:	Q:	ɒː	lengthened open back rounded	(Swiss German)	aus	vowel	back	Q.aus
+9:	9:	œː	lengthened front half open rounded vowel		nld	vowel	front	P9.deu
+{{	{{	æː	lengthened front open unrounded vowel in quantity II	kääru	ekk	vowel	front	{{.ekk
+{:	{:	æː	lengthened front open unrounded vowel in quantity II	kääru	ekk	vowel	front	{.ekk
+{{:	{{:	ææː	lengthened front open unrounded vowel in quantity III		ekk	vowel	front	{{:.ekk
+yy	yy	yː	lengthened front closed rounded vowel (quantitiy II)	müüri	ekk	vowel	front	yy.ekk
+yy:	yy:	yyː	lengthened front closed rounded vowel (quantitiy III)		ekk	vowel	front	yy:.ekk
+22	22	øː	lengthened front half closed rounded vowel	nööri	ekk	vowel	front	P2P2.ekk
+22:	22:	øøː	lengthened front half closed rounded vowel in quantity III		ekk	vowel	front	P2P2:.ekk
+uu	uu	uː	lengthened back closed rounded vowel	kuuri	ekk	vowel	back	uu.ekk
+uu:	uu:	uuː	lengthened back closed rounded vowel in quantity III		ekk	vowel	back	uu:.ekk
+oo	oo	oː	lengthened back half closed rounded vowel	poori	ekk	vowel	back	oo.ekk
+oo:	oo:	ooː	lengthened back half closed rounded vowel in quantity III		ekk	vowel	back	oo:.ekk
+77	77	ɤː	back half closed unrounded vowel in quantity II	sõõre	ekk	vowel	back	P7P7.ekk
+7:	7:	ɤː	back half closed unrounded vowel in quantity II	sõõre	ekk	vowel	back	P7P7.ekk
+77:	77:	ɤɤː	back half closed unrounded vowel in quantity III		ekk	vowel	back	P7P7.ekk
+AA	AA	ɑː	lengthened back open unrounded vowel in quantity II	vaaru	ekk	vowel	back	AA.ekk
+AA:	AA:	ɑɑː	lengthened back open unrounded vowel in quantity III		ekk	vowel	back	AA:.ekk
+aU	aU	aʊ	diphthong	Haus	deu	diphthong	front>back	aU.gsw
+aI	aI	aɪ	diphthong	Bein	deu	diphthong	front	aI.deu
+ai	ai	ai	diphthong		ita	diphthong	front	ai.ita
+a:i	a:i	aːi	diphthong		nld	diphthong	front	ai.ita
+Ae	Ae	ɑe	diphthong		aus	diphthong	back>front	Ae.aus
+Au	Au	ɑu	diphthong		nld	diphthong	back	aU.deu
+OY	OY	ɔʏ	diphthong	heulen	deu	diphthong	back>front	OY.deu
+eI	eI	eɪ	diphthong	raise	aus	diphthong	front	eI.aus
+e@	e@	eə	diphthong	stairs	aus	diphthong	front>central	e@.aus
+ei	ei	ei	diphthong		ita	diphthong	front	ei.gsw
+e:i	e:i	eːi	diphthong		nld	diphthong	front	ei.ita
+eU	eU	eʊ	diphthong		por	diphthong	front>back	OY.deu
+EI	EI	ɛɪ	diphthong	raise	eng	diphthong	front	eI.aus
+Ei	Ei	ɛi	diphthong		ita	diphthong	front	Ei.ita
+{I	{I	æɪ	diphthong		aus	diphthong	front	{I.aus
+{i	{i	æi	diphthong		gsw	diphthong	front	{i.gsw
+{u	{u	æu	diphthong		gsw	diphthong	front>back	{u.gsw
+{:u	{:u	æːu	diphthong		gsw	diphthong	front>back	{u.gsw
+{O	{O	æɔ	diphthong		aus	diphthong	front>back	{O.aus
+I@	I@	ɪə	diphthong	dears	aus	diphthong	front>central	I@.aus
+Ii:	Ii:	ɪiː	diphthong	accede	aus	diphthong	front	i:.aus
+I:	I:	ɪː	lengthened front closed unrounded vowel	(Swiss German)	deu	vowel	front	I.deu
+i:@	i:@	iːə	diphthong	memorial	nze	diphthong	central>front	I@.aus
+i@	i@	iə	diphthong		gsw	diphthong	central>front	i@.gsw
+io	io	io	diphthong		ita	diphthong	front>back	io.ita
+iu	iu	iu	diphthong		nld	diphthong	front>back	ju.ita
+ja	ja	ja	diphthong		ita	diphthong	front	ja.ita
+jo	jo	jo	diphthong		ita	diphthong	front>back	jo.ita
+ju	ju	ju	diphthong		ita	diphthong	front>back	ju.ita
+oI	oI	oɪ	diphthong		aus	diphthong	back>front	oI.aus
+oi	oi	oi	diphthong		ita	diphthong	back>front	oi.gsw
+o:i	o:i	oːi	diphthong		nld	diphthong	back>front	oi.ita
+oU	oU	oʊ	diphthong		por	diphthong	back	@U.aus
+oE	oE	oɛ	diphthong		ita	diphthong	back>front	oE.ita
+OI	OI	ɔɪ	diphthong	noise	aus	diphthong	back>front	OI.aus
+Oi	Oi	ɔi	diphthong		ita	diphthong	back>front	Oi.ita
+ue	ue	ue	diphthong		ita	diphthong	back>front	ue.gsw
+ui	ui	ui	diphthong		nld	diphthong	back>front	oi.ita
+U@	U@	ʊə	diphthong	cures	aus	diphthong	back>central	U@.aus
+u@	u@	uə	diphthong		gsw	diphthong	back>central	u@.gsw
+U:	U:	ʊː	lenthened back closed rounded vowel somewhat more centralised and relaxed	(Swiss German)	deu	vowel	back	U.deu
+wa	wa	wa	diphthong		ita	diphthong	front	wa.ita
+we	we	we	diphthong		ita	diphthong	front	we.ita
+wi	wi	wi	diphthong		ita	diphthong	front	wi.ita
+wO	wO	wɔ	diphthong		ita	diphthong	back	wO.ita
+yu	yu	yu	diphthong		nld	diphthong	front>back	ju.ita
+y@	y@	yə	diphthong		gsw	diphthong	front>central	y@.gsw
+@U	@U	əʊ	diphthong	nose	aus	diphthong	central>back	@U.aus
+@}	@}	əʉ	diphthong		aus	diphthong	central	@}.aus
+@@	@@	əː	geminate of schwa in quantity II		ekk	vowel	central	@.ekk
+@:	@:	əː	geminate of schwa in quantity II		ekk	vowel	central	@.ekk
+@@:	@@:	əəː	geminate of schwa in quantity III		ekk	vowel	central	@.ekk
+9y	9y	œy	diphthong		nld	diphthong	back>front	OI.aus
+QI	QI	ɒɪ	diphthong	abide	aus	diphthong	central>front	OI.aus
+U}	U}	ʊʉ	diphthong	abuse	aus	diphthong	central>back	u:.aus
+VU	VU	ʌʊ	diphtong	acetone	aus	diphthong	central>back	@U.aus
+Vi	Vi	ʌi	diphthong	abased	aus	diphthong	central>front	aI.aus
+{o	{o	æo	diphthong	accounts	aus	diphthong	front>back	{O.aus
+2i	2i	øi	diphthong		ekk	diphthong	back>front	oi.ita
+2i:	2i:	øiː	diphthong		ekk	diphthong	back>front	oi.ita
+7o:	7o:	ɤoː	diphthong		ekk	diphthong	back	@U.aus
+7u:	7u:	ɤuː	diphthong		ekk	diphthong	back	@U.aus
+7u	7u	ɤu	diphthong		ekk	diphthong	back	@U.aus
+Ai	Ai	ɑi	diphthong		ekk	diphthong	back>front	aI.deu
+Ai:	Ai:	ɑiː	diphthong		ekk	diphthong	back>front	ai.ita
+Ao:	Ao:	ɑoː	diphthong		ekk	diphthong	back	aU.deu
+Au:	Au:	ɑuː	diphthong		ekk	diphthong	back	aU.deu
+Ae:	Ae:	ɑeː	diphthong		ekk	diphthong	back>front	Ae.aus
+ei:	ei:	eiː	diphthong		ekk	diphthong	front	ei.ita
+e:u	e:u	eːu	diphthong		nld	diphthong	front	OY.deu
+i~	i~	ĩ	nasalized front closed unrounded vowel		xxx	vowel	front	i:.deu
+e~	e~	ẽ	nasalized front half closed unrounded vowel	vin	fra	vowel	front	e:.deu
+a~	a~	ã	nasalized central open vowel	vent	fra	vowel	front	a.deu
+o~	o~	õ	nasalized back half closed rounded vowel	bon	fra	vowel	back	o.deu
+9~	9~	ɶ̃	nasalized front half open rounded vowel	brun,neuv	fra	vowel	front	P9.deu
+E~	E~	ɛ̃	nasalized lengthened front half open unrounded vowel		deu	vowel	front	E:.deu
+O~	O~	ɔ̃	nasalized back half open rounded vowel		deu	vowel	back	O.deu
+u~	u~	ũ	nasalized back closed rounded vowel		xxx	vowel	back	u:.deu
+a:~	a:~	aː̃	nasalized lengthened central open vowel		deu	vowel	central	a:.deu
+E:~	E:~	ɛː̃	nasalized lengthened front half open unrounded vowel		deu	vowel	front	E:.deu
+o:~	o:~	oː̃	nasalized lengthened back half closed rounded vowel		deu	vowel	back	o:.deu
+O:~	O~	ɔ̃	nasalized lengthened back half open rounded vowel		nld	vowel	back	O.deu
+tS_j	tS'	tʃʲ	palatalized voiceless post-alveolar affricate		rus	affricate	post-alveolar	tS_j.rus
+ts_j	ts'	tsʲ	palatalized voiceless alveolar affricate	c'ma	pol	affricate	alveolar	ts.hun
+dz_j	dz'	dzʲ	palatalized voiced alveolar affricate	dz'wig	pol	affricate	alveolar	dz.hun
+r_j	r'	rʲ	palatalized alveolar trill		rus	approximant	alveolar	r_j.rus
+S_j	S'	ʃʲ	palatalized voiceless post-alveolar fricative		rus	fricative	post-alveolar	S_j.rus
+s_j	s'	sʲ	palatalized voiceless alveolar fricative	syk	pol	fricative	alveolar	s_j.rus
+s_js	s's	sʲs	palatalized voiceless alveolar fricative in quantity II	kassi	ekk	fricative	alveolar	s_js.ekk
+s_j:s	s':s	sʲːs	palatalized voiceless alveolar fricative in quantity III		ekk	fricative	alveolar	s_js.ekk
+z_j	z'	zʲ	palatalized voiced alveolar fricative	zbir	pol	fricative	alveolar	z_j.rus
+m_j	m'	mʲ	palatalized bilabial nasal		rus	nasal	bilabial	m_j.rus
+n_j	n'	nʲ	palatalized alveolar nasal	kon'	pol	nasal	alveolar	n_j.rus
+n_jn	n'n	nʲn	palatalized alveolar nasal in quantity II	panni	ekk	nasal	alveolar	n_jn.ekk
+n_j:n	n':n	nʲːn	palatalized alveolar nasal in quantity III		ekk	nasal	alveolar	n_jn.ekk
+l_j	l'	lʲ	palatalized alveolar lateral approximant	pali	ekk	lateral-approximant	alveolar	l_j.rus
+l_jl	l'l	lʲl	palatalized alveolar lateral approximant in quantity II	palli	ekk	lateral-approximant	alveolar	l_jl.ekk
+l_j:l	l':l	lʲːl	palatalized alveolar lateral approximant in quantity III		ekk	lateral-approximant	alveolar	l_jl.ekk
+t_j	t'	tʲ	palatalized voiceless alveolar plosive	padi	ekk	plosive	alveolar	t_j.rus
+t_jt	t't	tʲt	palatalized voiceless alveolar plosive in quantity II	pati	ekk	plosive	alveolar	t_jt.ekk
+t_j:t	t':t	tʲːt	palatalized voiceless alveolar plosive in quantity III		ekk	plosive	alveolar	t_jt.ekk
+d_j	d'	dʲ	palatalized voiced alveolar plosive	gyár	hun	plosive	alveolar	d_j.rus
+dd_j	dd'	dːʲ	geminate of d'	egy	hun	plosive	alveolar	d.hun
+g_j	g'	ɡʲ	palatalized voiced velar plosive	Gienek	pol	plosive	velar	g_j.rus
+x_j	x'	xʲ	palatalized voiceless velar fricative	hiacynt	pol	fricative	velar	x.deu
+k_j	k'	kʲ	palatalized voiceless velar plosive	kierowca	pol	plosive	velar	k_j.rus
+f_j	f'	fʲ	palatalized voiceless bilabial fricative		rus	fricative	bilabial	f_j.rus
+v_j	v'	vʲ	palatalized voiced bilabial fricative		rus	fricative	bilabial	v_j.rus
+b_j	b'	bʲ	palatalized voiced bilabial plosive		rus	plosive	bilabial	b_j.rus
+p_j	p'	pʲ	palatalized voiceless bilabial plosive	piasek	pol	plosive	bilabial	p_j.rus
+xx_j	xx'	xːʲ	geminate of x'		hun	fricative	velar	x.hun
+p_h	p_h	pʰ	aspirated voiceless bilabial plosive		spa	plosive	bilabial	p.deu
+t_h	t_h	tʰ	aspirated voiceless alveolar plosive		spa	plosive	alveolar	t.deu
+k_h	k_h	kʰ	aspirated voiceless velar plosive		spa	plosive	velar	k.deu
+tt	tt	tː	geminate of t	fatto	ita	fricative	bilabial	tt.gsw
+t:	t:	tː	lengthened t	että	fin	plosive	alveolar	tt.ekk
+t:t	t:t	tːt	geminate of t in quantity III		ekk	plosive	alveolar	t:t.ekk
+pp	pp	pː	geminate of p		ita	plosive	bilabial	pp.gsw
+p:	p:	pː	lengthened p		fin	plosive	bilabial	pp.ekk
+p:p	p:p	pːp	geminate of p in quantity III		ekk	plosive	bilabial	pp.ekk
+kk	kk	kː	geminate of k		ita	plosive	velar	kk.ekk
+k:	k:	kː	lengthened k	takkinsa	fin	plosive	velar	kk.ekk
+k:k	k:k	kːk	geminate of k in quantity III		ekk	plosive	velar	k:k.ekk
+dd	dd	dː	geminate of d		ita	plosive	alveolar	d.deu
+gg	gg	ɡː	geminate of g		ita	plosive	velar	g.deu
+g:	g:	ɡː	lengthened g		fin	plosive	velar	g.hun
+bb	bb	bː	geminate of b		ita	plosive	bilabial	b.deu
+b:	b:	bː	lengthened b		fin	plosive	bilabial	b.deu
+ttS	ttS	tːʃ	geminate of tS		ita	affricate	post-alveolar	tS.aus
+tts	tts	tːs	geminate of ts		ita	affricate	alveolar	ts.hun
+ddZ	ddZ	dːʒ	geminate of dZ		ita	affricate	post-alveolar	dZ.aus
+ddz	ddz	dːz	geminate of dz	zona	ita	affricate	alveolar	dz.hun
+vv	vv	vː	geminate of v		ita	fricative	labio-dental	v.deu
+v:	v:	vː	lengthened v		fin	fricative	labio-dental	v.hun
+v:v	v:v	vːv	geminate of v in quantity III		ekk	fricative	labio-dental	v.ekk
+ss	ss	sː	geminate of s		ita	fricative	alveolar	ss.gsw
+s:	s:	sː	lengthened s		fin	fricative	alveolar	ss.ita
+s:s	s:s	sːs	geminate of s in quantity III		ekk	fricative	alveolar	s:s.ekk
+zz	zz	zː	geminate of z		hun	fricative	alveolar	z.hun
+SS	SS	ʃː	geminate of S		ita	fricative	post-alveolar	SS.ita
+S:	S:	ʃː	lengthened S		fin	fricative	post-alveolar	SS.ita
+S:S	S:S	ʃːʃ	geminate of S in quantity III		ekk	fricative	post-alveolar	SS.ita
+ZZ	ZZ	ʒː	geminate of Z		hun	fricative	post-alveolar	Z.hun
+xx	xx	xː	geminate of x		hun	fricative	velar	x.hun
+rr	rr	rː	geminate of r		ita	trill	alveolar	rr.gsw
+r:	r:	rː	lengthened r		fin	trill	alveolar	rr.ekk
+r:r	r:r	rːr	geminate of r in quantity III		ekk	trill	alveolar	rr.ekk
+RR	RR	ʀʀ	geminate of R in quantity II		ekk	trill	uvular	R.ekk
+nn	nn	nː	geminate of n		ita	nasal	alveolar	nn.gsw
+n:	n:	nː	lengthened n		fin	nasal	alveolar	nn.ekk
+n:n	n:n	nːn	geminate of n in quantity III		ekk	nasal	alveolar	n:n.ekk
+NN	NN	ŋː	geminate of N	(Swiss German)	deu	nasal	velar	NN.gsw
+N:	N:	ŋː	lengthened N		fin	nasal	velar	NN.ekk
+N_j	N'	ŋʲ	palatalized velar nasal		ekk	nasal	velar	N.ekk
+ww	ww	wː	geminate of w	(Swiss German)	deu	approximant	labio-velar	v.deu
+mm	mm	mː	geminate of m		ita	nasal	bilabial	mm.gsw
+m:	m:	mː	lengthened m	hommasta	fin	nasal	bilabial	mm.ekk
+m:m	m:m	mːm	geminate of m in quantity III		ekk	nasal	bilabial	mm.ekk
+FF	FF	ɱː	geminate of F		hun	nasal	labio-dental	m.hun
+LL	LL	ʎː	geminate of L		ita	lateral-approximant	palatal	LL.ita
+ll	ll	lː	geminate of l		ita	lateral-approximant	alveolar	ll.gsw
+l:	l:	lː	lengthened l	jolla	fin	lateral-approximant	alveolar	ll.ekk
+l:l	l:l	lːl	geminate of l in quantity III		ekk	approximant	alveolar	l:l.ekk
+JJ	JJ	ɲː	geminate of J		ita	nasal	palatal	J.hun
+jj	jj	jː	geminate of j		ekk	approximant	palatal	j.deu
+j:	j:	jː	lengthened j		fin	approximant	palatal	j.hun
+j:j	j:j	jːj	geminate of j in quantity III		ekk	approximant	palatal	j.ekk
+ff	ff	fː	geminate of f		ita	fricative	bilabial	f.deu
+f:	f:	fː	lengthened f		fin	fricative	bilabial	f.hun
+f:f	f:f	fːf	geminate of f in quantity III		ekk	fricative	bilabial	f.ekk
+hh	hh	hː	geminate of h		ekk	fricative	glottal	hh.ekk
+h:	h:	hː	lengthened h		fin	fricative	glottal	h.hun
+h:h	h:h	hːh	geminate of h in quantity III		ekk	fricative	glottal	h.ekk
+ttS_cl		tːʃ_cl	closure of ttS		ita	affricate	post-alveolar	ttS_cl.ita
+ttS_rl		tːʃ_rl	release of ttS		ita	affricate	post-alveolar	ttS_rl.ita
+tts_cl		tːs_cl	closure of tts		ita	affricate	alveolar	ts_cl.ita
+tts_rl		tːs_rl	release of tts		ita	affricate	alveolar	tts_rl.ita
+ddZ_cl		dːʒ_cl	closure of ddZ		ita	affricate	post-alveolar	dZ_cl.ita
+ddZ_rl		dːʒ_rl	release of ddZ		ita	affricate	post-alveolar	dZ_rl.ita
+ddz_cl		dːz_cl	closure of ddz	zona	ita	affricate	alveolar	ts_cl.ita
+ddz_rl		dːz_rl	release of ddz	zona	ita	affricate	alveolar	dz.hun
+tS_cl		tʃ_cl	closure of tS		ita	affricate	post-alveolar	tS_cl.ita
+tS_rl		tʃ_rl	release of tS		ita	affricate	post-alveolar	tS_rl.ita
+ts_cl		ts_cl	closure of ts		ita	affricate	alveolar	ts_cl.ita
+ts_rl		ts_rl	release of ts		ita	affricate	alveolar	ts_rl.ita
+dZ_cl		dʒ_cl	closure of dZ		ita	affricate	post-alveolar	dZ_cl.ita
+dZ_rl		dʒ_rl	release of dZ		ita	affricate	post-alveolar	dZ_rl.ita
+dz_cl		dz_cl	closure of dz		ita	affricate	alveolar	ts_cl.ita
+dz_rl		dz_rl	release of dz		ita	affricate	alveolar	ts_rl.ita
+tt_rl		tː_rl	release of tt		ita	plosive	alveolar	tt_rl.ita
+tt_cl		tː_cl	closure of tt		ita	plosive	alveolar	tt_cl.ita
+pp_cl		pː_cl	closure of pp		ita	plosive	bilabial	pp_cl.ita
+pp_rl		pː_rl	release of pp		ita	plosive	bilabial	p_rl.ita
+kk_cl		kː_cl	closure of kk		ita	plosive	velar	kk_cl.ita
+kk_rl		kː_rl	release of kk		ita	plosive	velar	kk_rl.ita
+dd_cl		dː_cl	release of dd		ita	plosive	alveolar	dd_cl.ita
+dd_rl		dː_rl	release of dd		ita	plosive	alveolar	d_rl.ita
+gg_cl		ɡː_cl	release of gg		ita	plosive	velar	g_cl.ita
+gg_rl		ɡː_rl	release of gg		ita	plosive	velar	g_rl.ita
+bb_cl		bː_cl	release of bb		ita	plosive	bilabial	<p:>.deu
+bb_rl		bː_rl	release of bb		ita	plosive	bilabial	b.deu
+t_cl		t_cl	closure of t		ita	plosive	alveolar	t_cl.ita
+t_rl		t_rl	release of t		ita	plosive	alveolar	t_rl.ita
+p_cl		p_cl	closure of p		ita	plosive	bilabial	p_cl.ita
+p_rl		p_rl	release of p		ita	plosive	bilabial	p_rl.ita
+k_cl		k_cl	closure of k		ita	plosive	velar	k_cl.ita
+k_rl		k_rl	release of k		ita	plosive	velar	k_rl.ita
+g_cl		ɡ_cl	closure of g		ita	plosive	velar	g_cl.ita
+g_rl		ɡ_rl	release of g		ita	plosive	velar	g_rl.ita
+d_cl		d_cl	closure of d		ita	plosive	alveolar	d_cl.ita
+d_rl		d_rl	release of d		ita	plosive	alveolar	d_rl.ita
+b_cl		b_cl	closure of b		ita	plosive	bilabial	p_cl.ita
+b_rl		b_rl	release of b		ita	plosive	bilabial	p_rl.ita
+<		(...)	recording initial silence		xxx	silence	silence	<.gsw
+>		(...)	recording trailing silence		xxx	silence	silence	>.gsw
+#		(...)	inter-word silence		xxx	silence	silence	#.ita
+<nib>		(.)	noise, non-human		xxx	noise	noise	<nib>.gsw
+<p:>		(...)	silence interval		xxx	silence	silence	<p:>.rus
+<usb>		(..)	human noise, garbage		xxx	noise	noise	<usb>.gsw
+p_>	p_>	p'	voiceless bilabial ejective	Georgian პერანგი	xxx	ejective	bilabial	p_>.kat
+t_>	t_>	t'	voiceless alveolar ejective	Georgian ზედატანი	xxx	ejective	alveolar	t_>.kat
+ts_>	ts_>	ts'	voiceless alveolar affricate ejective	Georgian წინდები	xxx	ejective	alveolar	ts.hun
+ts`	ts`	tʂ	retroflex voiceless affricate	cyk	pol	affricate	retroflex	tS.aus
+dz`	dz`	dʐ	retroflex voiced affricate	dzwon	pol	affricate	retroflex	dZ.aus
+3`	3`	ɝ	retroflex front half open unrounded vowel	furs	use	vowel	front	P3`.use
+tS_>	tS_>	tʃ'	voiceless postalveolar affricate ejective	Georgian კუჭის	xxx	ejective	post-alveolar	tS.hun
+c_>	c_>	c'	voiceless palatal ejective plosive	Georgian ჭ	xxx	ejective	palatal	c.hun
+J-	J\	ɟ	voiced palatal plosive	Hungarian egy 'one'	xxx	plosive	palatal	j.deu
+k_>	k_>	k'	voiceless velar ejective	Georgian უკან	xxx	ejective	velar	k_>.kat
+q_>	q_>	q'	voiceless uvular ejective	Georgian საავადმყოფო	xxx	ejective	uvular	q_>.kat
+p-	p\	ɸ	voiceless bilabial fricative	Japanese fu	xxx	fricative	bilabial	p.deu
+s`	s`	ʂ	retroflex voiceless fricative	szyk	pol	fricative	retroflex	S.aus
+z`	z`	ʐ	retroflex voiced fricative	żyto	pol	fricative	retroflex	Z.aus
+j-	j\	ʝ	voiced palatal fricative	Spanish ayuda	xxx	fricative	palatal	G.kat
+M-	M\	ɰ	velar approximant	Spanish algo	xxx	approximant	velar	U.deu
+X-	X\	ħ	voiceless pharyngeal fricative	Arabic h.â	xxx	fricative	pharyngeal	x.deu
+?-	?\	ʕ	voiced pharyngeal fricative	Arabic 'ayn	xxx	fricative	pharyngeal	x.deu
+h-	h\	ɦ	voiced glottal fricative	English	use	fricative	glottal	h-.use
+r-	r\	ɹ	alveolar approximant	English run	xxx	approximant	alveolar	r.deu
+N=	N=	ŋ̩	syllabic velar nasal	English walking	use	nasal	velar	N=.use
+n=	n=	n̩	syllabic alveolar nasal	English Boston	use	nasal	alveolar	n=.use
+m=	m=	m̩	syllabic bilabial nasal	English bottom	use	nasal	bilabial	m=.use
+l=	l=	l̩	syllabic lateral	English bridal	use	lateral-approximant	alveolar	l=.use
