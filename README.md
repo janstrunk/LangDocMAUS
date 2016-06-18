@@ -11,6 +11,9 @@ General overview of the process:
 3. Optionally check that all symbols created by the grapheme-to-phoneme conversion are contained in the MAUS sampa.inventory.list using CheckBASPartiturPhonemeInventory.py
 
 4. Perform automatic forced alignment with (Web)MAUS
+   
+   In general, you should choose the following settings:
+   ![WebMAUS settings](./WebMAUSOptions.png)
 
 5. Integrate the alignment results from the resulting MAU (BAS Partitur Format) file back into the Toolbox file with MAU2Toolbox.py  
 (Alternatively or additionally, create a TextGrid-File from the output of MAUS with MAU2TextGrid.py)
