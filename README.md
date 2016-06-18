@@ -2,6 +2,9 @@
 
 Tools for preparing Toolbox files for automatic forced alignment with WebMAUS and tools to integrate the results into Toolbox and ELAN files
 
+In order to use the scripts dealing with ELAN files, you have to get the Python ELAN API
+from https://github.com/janstrunk/Python-Elan-API/.
+
 General overview of the process:
 
 1. Optionally export an ELAN file to Toolbox format or start with an existing Toolbox file
