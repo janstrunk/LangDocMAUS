@@ -18,8 +18,7 @@ General overview of the process:
 5. Integrate the alignment results from the resulting MAU (BAS Partitur Format) file back into the Toolbox file with MAU2Toolbox.py  
 (Alternatively or additionally, create a TextGrid-File from the output of MAUS with MAU2TextGrid.py)
 
-Optionally:
-6. Import the Toolbox file into ELAN
+6. Optionally: Import the Toolbox file into ELAN
 
 7. Flexibilize the ELAN file using flexibilize_imported_toolbox_in_elan.py in order to allow words to have their own start and end points on the time line
 
