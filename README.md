@@ -34,10 +34,12 @@ transliterationtables. The grammar is relatively simple:
 
 Substitution rules have the format
 X --> Y
+
 X is replaced by Y.
 
 Deletion rules have the format
 X --
+
 X is deleted.
 
 The grapheme-to-phoneme rules usually have to decapitalize capitalized words,
